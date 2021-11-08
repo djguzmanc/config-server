@@ -1,0 +1,49 @@
+gondor.backoffice:
+  apis:
+    batch:
+      endpoint: http://localhost:3721/api
+
+  configuration:
+    reportTypes:
+      - value: ACCOUNT_OPENING
+        label: Apertura de cuenta
+
+      - value: SERVICE_PAYMENT
+        label: Pago de servicios
+
+      - value: PLIN
+        label: Plin
+
+    applications:
+      - name: Tunki
+        applicationId: FLAWzDnn96aRERf2
+
+      - name: Fintech
+        applicationId: UFuxYUnMAv2eQJzi
+
+      - name: Shopstar
+        applicationId: QHVnqpQ4eQEQZ8nJ
+
+      - name: Alianza
+        applicationId: qAk9zWXLGjK7CYzf
+
+      - name: Alianza Servicios
+        applicationId: BtCnLrP4HkLKokoE
+
+      - name: Bogota
+        applicationId: gRpQGA7PsoWwLbjg
+
+      - name: BPI
+        applicationId: LKAF4gTx2cYF63EU
+
+      - name: APP
+        applicationId: LU7TrLF4XPD38Cn6
+
+      - name: Indigital
+        applicationId: ChJRgn8LXbB9MULV
+
+      - name: BI Empresas
+        applicationId: 2dEhwA3WHaaGZBC2
+
+      - name: Frilea
+        applicationId: swunuth4f30aGevo
